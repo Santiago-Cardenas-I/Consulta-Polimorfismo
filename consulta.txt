@@ -1,0 +1,41 @@
+*Que es polimorfismo:
+
+En programación orientada a objetos, polimorfismo es la capacidad que tienen los objetos de una clase en ofrecer respuesta distinta e independiente en función de los parámetros (diferentes implementaciones) utilizados durante su invocación.
+
+*Tipos de polimorfismo: 
+
+La programación orientada a objetos como paradigma, se basa en cuatro pilares fundamentales: abstracción, encapsulamiento, polimorfismo y herencia.
+
+
+*Ejemplo de sobrecarga:
+
+--Clase: Vehiculo
+Define el método SonidoMotor() para vehículos con motor de gasolina:
+
+Método: SonidoMotor()
+  - Parámetros: Ninguno
+  - Tipo de retorno: String
+  - Funcionalidad: Devuelve el sonido del motor de gasolina
+
+--Se sobrecarga del método SonidoMotor() para vehículos con motor eléctrico:
+
+Método: SonidoMotor()
+  - Parámetros: Ninguno
+  - Tipo de retorno: String
+  - Funcionalidad: Devuelve el sonido del motor eléctrico
+
+*Sobreescritura de métodos:
+
+La Sobreescritura es la capacidad que tenemos de poder modificar los metodos que las clases hijas heredan de sus clases padre para que funcionen distinto o sean iguales pero con alguna u otra funcionalidad adicional. La sobreescritura es una de las dos formas de polimorfismo, la otra es la sobrecarga.
+
+*Que beneficios ofrece el polimorfismo a la POO:
+
+Permite que los objetos de diferentes clases respondan a un mismo mensaje de manera específica para cada uno.
+
+TRES EJEMPLOS DE POLIMORFISMO: 
+
+Se tiene una clase base llamada Figura con métodos para calcular área y perímetro. Luego, tienes clases derivadas como Rectángulo y Círculo, que heredan de la clase Figura. Cada una de estas clases puede implementar los métodos calcular_area() y calcular_perimetro() de manera diferente según su forma específica. Por lo tanto, puedes tener una lista de objetos de tipo Figura que pueden ser tanto rectángulos como círculos y, al llamar a los métodos calcular_area() y calcular_perimetro(), se ejecutarán los métodos correspondientes según el tipo de figura. 
+
+Se tiene una clase base llamada Animal con un método hacer_sonido(). Luego, tienes clases derivadas como Perro, Gato y Vaca, que heredan de la clase Animal. Cada una de estas clases implementa el método hacer_sonido() de manera diferente para que un perro ladre, un gato maúlle y una vaca muja.
+
+Podemos tener una clase base llamada Operacion con un método calcular(). Luego, podemos tener clases derivadas como Suma, Resta, Multiplicacion y Division, que heredan de la clase Operacion. Cada una de estas clases implementa el método calcular() de manera diferente para realizar la operación correspondiente.
